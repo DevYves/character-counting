@@ -3,7 +3,7 @@
 // //output -> returns all the unique characters that exist in the string && how many instances of each letter
 // // were found in the string
 // // var noSpaces = string.split(" ").join("");
-// //   var mid = Math.ceil(noSpaces.length/2);
+
 function NewStringBuilder(stringClone){
   var noSpaces = stringClone.split(" ").join("").toLowerCase();
 
